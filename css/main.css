@@ -1294,11 +1294,7 @@ body {
   height: var(--h);
   border-top-left-radius: 100%;
   border-left: 2vmin solid var(--c);
-  -webkit-mask-image: linear-gradient(
-    to top,
-    transparent 20%,
-    var(--dark-color)
-  );
+  -webkit-mask-image: linear-gradient(to top, transparent 20%, var(--dark-color));
   transform-origin: bottom center;
 }
 .long-g .leaf--0 {
